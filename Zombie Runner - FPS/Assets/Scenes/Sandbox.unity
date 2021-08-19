@@ -594,6 +594,7 @@ MonoBehaviour:
   range: 100
   weaponDamage: 25
   muzzleFlash: {fileID: 583067797}
+  hitEffect: {fileID: 6289788594896356725, guid: fbfc30ab76cee044a8e168c6e4d08d98, type: 3}
 --- !u!1 &370816861
 GameObject:
   m_ObjectHideFlags: 0
@@ -2656,6 +2657,10 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 400002, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7086147331000310650, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+      propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
