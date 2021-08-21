@@ -34,6 +34,7 @@ public class EnemyAI : MonoBehaviour
 
     private void EngageTarget()
     {
+        FaceTarget();
         if (distanceToTarget >= navMeshAgent.stoppingDistance)
         {
             ChaseTarget();
@@ -53,7 +54,6 @@ public class EnemyAI : MonoBehaviour
 
     private void AttackTarget()
     {
-        FaceTarget();
         GetComponent<Animator>().SetBool("attack", true);
     }
 
