@@ -18,6 +18,4 @@ public class EnemyAttack : MonoBehaviour
         target.TakeDamage(damage);
         Debug.Log("I hit you!");
     }
-
-    
 }
