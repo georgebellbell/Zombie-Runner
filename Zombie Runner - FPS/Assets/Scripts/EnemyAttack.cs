@@ -16,6 +16,6 @@ public class EnemyAttack : MonoBehaviour
     {
         if (target == null) { return; }
         target.TakeDamage(damage);
-        Debug.Log("I hit you!");
+        target.GetComponent<DisplayDamage>().ShowDamageImpact();
     }
 }
